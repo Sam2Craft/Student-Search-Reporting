@@ -17,7 +17,7 @@ namespace OOPEXTRA
 
             Student[] myStudents = new Student[50];
 
-            StreamReader inFile = new StreamReader(fileName);
+            StreamReader inFile = new StreamReader("student.txt);
             string line = inFile.ReadLine();
 
             while(line != null)
