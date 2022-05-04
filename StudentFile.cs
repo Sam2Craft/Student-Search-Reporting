@@ -36,16 +36,6 @@ namespace OOPEXTRA
             
         }
 
-        public void Save(Student[] myStudents)
-        {
-            StreamWriter outFile = new StreamWriter("students.txt");
-
-            for(int i = 0; i < Student.GetCount(); i++)
-            {
-                outFile.WriteLine(myStudents[i].ToFile());
-            }
-
-            outFile.Close();
-        }
+      
     }
 }
